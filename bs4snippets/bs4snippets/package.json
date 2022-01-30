@@ -1,0 +1,37 @@
+{
+    "name": "bs4snippets",
+    "displayName": "bs4snippets",
+    "description": "Simple Bootstrap 4 snippet generator",
+    "version": "1.0.0",
+    "publisher": "spencer lewis",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
+//npm install -g code-generator
+//yo code to create the extension
+//copy the bs4folder and put it in the extensions folder
+
+//to publish the extension vsce 
+//npm install -vsce
+//vsce publish
+//get a personal access token follow the link on the vscode page

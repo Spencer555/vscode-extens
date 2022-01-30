@@ -1,0 +1,32 @@
+u can create a snippet for a specific lang or for general  
+
+snippets are defined in a json format
+
+
+
+
+{
+    "For_Loop": {
+        "prefix":"for",
+        "body": [
+        "for (const ${2:element} 0f ${1:array}) {",
+        "\t$0",
+        "}"
+        ],
+        "description": "For Loop"
+    }
+}
+
+
+if the body is a single line it can be a string 
+if the body is multiline it is an array
+
+
+the name of the snippet is  For_Loop 
+prefix for calling it for 
+body is the code expanded 
+description if description of code  
+
+
+u can use the generator app at 
+snippets-generator.app
